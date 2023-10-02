@@ -10,7 +10,7 @@ node('ubuntu-appserver')
     {
         /* This builds the actual image;
         * This is synonymous to docker build on the command line */
-        app =docker.build("wbyceiydbo57/real_estate_repo")
+        app =docker.build("wbyceiydbo57/realestate")
     }
     stage('Post-to-dockerhub')
     {
